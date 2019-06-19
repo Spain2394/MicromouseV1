@@ -1,2 +1,2 @@
 # MicromouseV1
-Develop miniature micro mouse for algorithm development
+Develop miniature micro mouse pcb for algorithm development
