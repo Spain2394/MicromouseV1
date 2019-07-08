@@ -1,4 +1,4 @@
-# Bill of Materials :zap:
+# Bill of Materials :electron:
 
 This page will list everything you will need to design a micromouse. This design is based on the [Green Giant](http://greenye.net/Pages/Micromouse/Micromouse2011-2012.htm).
 
@@ -24,7 +24,7 @@ These are common components, such as basic circuit elemnts and harnesses.
 
 
 ### Resources
-- [IEEE Micromouse](http://greenye.net/Pages/Micromouse/Micromouse2012-2013.html) for the design template
+- [IEEE Micromouse](http://greenye.net/Pages/Micromouse/Micromouse2012-2013.htm) for the design template
 - [etank7000/Micromouse](https://github.com/etank7000/Micromouse)
 
 
