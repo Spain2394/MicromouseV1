@@ -1,6 +1,6 @@
 # Bill of Materials :zap:
 
-This page will list everything you will need to design a micromouse. This design is based on the [Green Giant](http://greenye.net/Pages/Micromouse/Micromouse2012-2013.html).
+This page will list everything you will need to design a micromouse. This design is based on the [Green Giant](http://greenye.net/Pages/Micromouse/Micromouse2011-2012.htm).
 
 ## Primary Components
 You need these components to enable the micromouse to sense its environment and
