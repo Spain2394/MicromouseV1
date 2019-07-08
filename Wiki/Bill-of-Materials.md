@@ -8,13 +8,19 @@ You need these components to enable the micromouse to sense its environment and
 | Part          | Qty           | Cost  |URL                                     |
 | ------------- |:-------------:| -----:|:--------------------------------------:|
 | Microcontroller      | 1 | $8.69   | [Arrow](https://www.arrow.com/en/products/stm32f103ret6/stmicroelectronics)|
-|       | centered      |   $12 ||
-| zebra stripes | are neat      |    $1 ||
+|       |      |   ||
+|       |      |    ||
 
 
 
 ## Common Parts
 These are common components, such as basic circuit elemnts and harnesses.
+
+| Part          | Qty           | Cost  |URL                                     |
+| ------------- |:-------------:| -----:|:--------------------------------------:|
+|       |         |   |    |
+|       |      |   |       |
+|       |      |    |      |
 
 
 ### Resources
