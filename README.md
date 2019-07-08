@@ -7,9 +7,6 @@ This projects will allow you to build and develop on a micromouse for maze explo
 2. [Hardware Setup](https://github.com/Spain2394/MicromouseV1/blob/master/Wiki/Hardware-Setup.md)
 3. [Software Setup](https://github.com/Spain2394/MicromouseV1/blob/master/Wiki/Software-Setup.md)
 
-# What's next
+# What's next ?
 - [link 1](link1)
 - [link 2](link2)
-
-# Useful Links
--
