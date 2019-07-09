@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -236,6 +236,10 @@ Bottom layer - GND
 Add net classes
 Add power planes 
 Use vector font </text>
+<dimension x1="20.066" y1="65.024" x2="19.939" y2="9.017" x3="14.03439375" y3="37.034034375" textsize="1.778" layer="48"/>
+<dimension x1="29.972" y1="35.433" x2="29.972" y2="9.525" x3="19.177" y3="22.479" textsize="1.778" layer="48"/>
+<dimension x1="19.939" y1="0" x2="51.943" y2="0" x3="35.941" y3="-8.763" textsize="1.778" layer="48"/>
+<text x="39.497" y="-7.874" size="1.778" layer="48">(mm)</text>
 </plain>
 <libraries>
 <library name="SparkFun-Passives">
@@ -1368,7 +1372,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="MRB">
 <contactref element="U$12" pad="R_MOTOR_B"/>
 </signal>
-<signal name="EM_LF">
+<signal name="LABEL_ME">
 <contactref element="R_ELF_PD" pad="2"/>
 <contactref element="NMOS1" pad="G"/>
 <wire x1="53.579" y1="63.0326" x2="53.5662" y2="61.3664" width="0" layer="19" extent="1-1"/>

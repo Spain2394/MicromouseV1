@@ -3505,7 +3505,7 @@ Use GND symbol and VCC symbol for ground and power respectively.
 <label x="104.14" y="-213.36" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="EM_LF" class="0">
+<net name="LABEL_ME" class="0">
 <segment>
 <pinref part="R_ELF_PD" gate="G$1" pin="2"/>
 <label x="434.34" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
