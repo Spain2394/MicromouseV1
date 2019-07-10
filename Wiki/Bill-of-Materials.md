@@ -33,7 +33,7 @@ These are common components, such as basic circuit elemnts and harnesses.
 
 
 ### Resources
-- [Design Tempalate: IEEE Micromouse Green Giant](http://greenye.net/Pages/Micromouse/Micromouse2012-2013.htm)
+- [Design Template: IEEE Micromouse Green Giant](http://greenye.net/Pages/Micromouse/Micromouse2012-2013.htm)
 - [Design Template by: etank7000/Micromouse](https://github.com/etank7000/Micromouse)
 - [Choosing IR Sensors](http://www.micromouseonline.com/2015/11/03/zeetah-sensor-design/)
 - [Choosing Motor](http://www.micromouseonline.com/2015/11/03/zeetah-sensor-design/)
