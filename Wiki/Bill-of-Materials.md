@@ -18,7 +18,7 @@ You need these components to enable the micromouse to sense its environment and
 |  Encoder (IE2 – 512)      |2 | $40  |[Faulhauber](http://www.robotstorehk.com/soccer/doc/ie2-512.pdf)   |
 |  Wheels                   | |  |          |
 
-*Subtotal:
+*Subtotal: $112.07
 
 
 
