@@ -15,10 +15,10 @@ You need these components to enable the micromouse to sense its environment and
 | IR Reciever      |  6    |  $4.26  |[Digikey](https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/TEFT4300/751-1041-ND/1681175)|
 |   PCB Boards    |  10|    $18.81|[JLCPCB](https://jlcpcb.com)|
 |   Motor (1717T006SR)      |2 | $20  |       [Faulhauber](https://www.faulhaber.com/en/products/series/1717sr/)   |
-|  Encoder (IE2 – 512)      |2 | $40  |          |
+|  Encoder (IE2 – 512)      |2 | $40  |[Faulhauber]        |
 |  Wheels                   | |  |          |
 
-*Subtotal: $12
+*Subtotal:
 
 
 
