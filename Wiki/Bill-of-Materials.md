@@ -2,7 +2,7 @@
 
 This page will list everything you will need to design a micromouse. This design is based on the [Green Giant](http://greenye.net/Pages/Micromouse/Micromouse2011-2012.htm).
 
-## Primary Components
+## Primary Parts
 You need these components to enable the micromouse to sense its environment and
 
 | Part          | Qty           | Cost  |URL                                     |
@@ -15,10 +15,15 @@ You need these components to enable the micromouse to sense its environment and
 | IR Reciever      |  6    |  $4.26  |[Digikey](https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/TEFT4300/751-1041-ND/1681175)|
 |   PCB Boards    |  10|    $18.81|[JLCPCB](https://jlcpcb.com)|
 |   Motor (1717T006SR)      |2 | $20  |       [Faulhauber](https://www.faulhaber.com/en/products/series/1717sr/)   |
-|  Encoder (IE2 – 512)      |2 | $40  |          |
-|  Wheels                   | |  |          |
+|  Encoder (IE2 – 512)      |2 | $40  |[Faulhauber](https://www.faulhaber.com/en/products/series/1717sr/)|
+| Wheels|  |  |  |
 
-*Subtotal: $12
+*Subtotal: 115.52$*
+
+## Optional/Testing Parts
+| Part          | Qty           | Cost |URL                                     |
+| ------------- |:-------------:| -----:|:--------------------------------------:|
+| Blue Pill (SMT developer)| 1|$18.99|[Amazon](https://www.amazon.com/initeq-STM32F103C8T6-Minimum-Development-Programmer/dp/B079B95L9Y) |
 
 
 
