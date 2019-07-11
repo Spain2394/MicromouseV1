@@ -14,16 +14,19 @@ You need these components to enable the micromouse to sense its environment and
 | IR Emitter      |     6 |   $ 4.62| [Digikey](https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/SFH-4545/475-2919-ND/2205955)|
 | IR Reciever      |  6    |  $4.26  |[Digikey](https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/TEFT4300/751-1041-ND/1681175)|
 |   PCB Boards    |  10|    $18.81|[JLCPCB](https://jlcpcb.com)|
-|   Motor (1717T006SR)      |2 | $20  |       [Faulhauber](https://www.faulhaber.com/en/products/series/1717sr/)   |
 |  Encoder (IE2 – 512)      |2 | $40  |[Faulhauber](https://www.faulhaber.com/en/products/series/1717sr/)|
-| Wheels|  |  |  |
+|  Motor (1717T006SR)      |2 | $20  |       [Faulhauber](https://www.faulhaber.com/en/products/series/1717sr/)   |
+| Tires| 1 | $9.51| [eBay](https://www.ebay.com/itm/Kyosho-Mini-Z-MZW2-20-High-Grip-Tire-Set-20/302534111257?epid=1501440182&hash=item4670703019:g:skUAAOSwVqlaEGUR)|
+| Wheels | 1 | $2.99 | [ReFlexRacing](http://www.reflexracing.net/Atomic-Mini-Z-AWD-Narrow-Split-Spoke-Wheels-0-offset-black_p_614.html)|
 
-*Subtotal: 115.52$*
+*Subtotal:$125.84*
 
 ## Optional/Testing Parts
 | Part          | Qty           | Cost |URL                                     |
 | ------------- |:-------------:| -----:|:--------------------------------------:|
 | Blue Pill (SMT developer)| 1|$18.99|[Amazon](https://www.amazon.com/initeq-STM32F103C8T6-Minimum-Development-Programmer/dp/B079B95L9Y) |
+| Gear Set | 1| $12.20| [eBay](https://www.ebay.com/itm/Kyosho-Mini-Z-MD006-Pinion-Spur-Gear-Set-Mini-Z-AWD/283310653492?_trkparms=aid%3D222007%26algo%3DSIM.MBE%26ao%3D2%26asc%3D20160323102634%26meid%3Dfa968287ba3443abae36a8060eb58274%26pid%3D100623%26rk%3D3%26rkt%3D6%26sd%3D192920100619%26itm%3D283310653492%26pg%3D2047675&_trksid=p2047675.c100623.m-1)|
+
 
 
 
