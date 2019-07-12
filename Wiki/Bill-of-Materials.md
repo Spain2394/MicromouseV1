@@ -19,15 +19,14 @@ You need these components to enable the micromouse to sense its environment and
 | Tires| 1 | $9.51| [eBay](https://www.ebay.com/itm/Kyosho-Mini-Z-MZW2-20-High-Grip-Tire-Set-20/302534111257?epid=1501440182&hash=item4670703019:g:skUAAOSwVqlaEGUR)|
 | Wheels | 1 | $2.99 | [ReFlexRacing](http://www.reflexracing.net/Atomic-Mini-Z-AWD-Narrow-Split-Spoke-Wheels-0-offset-black_p_614.html)|
 
-*Subtotal:$125.84*
+**Subtotal: $125.84**
 
 ## Optional/Testing Parts
 | Part          | Qty           | Cost |URL                                     |
 | ------------- |:-------------:| -----:|:--------------------------------------:|
 | Blue Pill (SMT developer)| 1|$18.99|[Amazon](https://www.amazon.com/initeq-STM32F103C8T6-Minimum-Development-Programmer/dp/B079B95L9Y) |
 | Gear Set | 1| $12.20| [eBay](https://www.ebay.com/itm/Kyosho-Mini-Z-MD006-Pinion-Spur-Gear-Set-Mini-Z-AWD/283310653492?_trkparms=aid%3D222007%26algo%3DSIM.MBE%26ao%3D2%26asc%3D20160323102634%26meid%3Dfa968287ba3443abae36a8060eb58274%26pid%3D100623%26rk%3D3%26rkt%3D6%26sd%3D192920100619%26itm%3D283310653492%26pg%3D2047675&_trksid=p2047675.c100623.m-1)|
-
-
+| MPU 6050 |1 | $4.80|[Amazon](https://www.amazon.com/dp/B07DXQB6P1/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B07DXQB6P1&pd_rd_w=iK6S4&pf_rd_p=8a8f3917-7900-4ce8-ad90-adf0d53c0985&pd_rd_wg=SjIjm&pf_rd_r=8QJVTJ7NX8SY9GFVS7QZ&pd_rd_r=1cfd0432-a4cf-11e9-b6ac-d580eb0b5aaa)|
 
 
 ## Common Parts
