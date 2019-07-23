@@ -4,8 +4,10 @@ all:
 clean:
 	find . -name '*~' -delete
 	find . -name '*#' -delete
+	find . -name '*.html' -delete
 
-	cd micrmouse-main-board;make clean
+	(cd micromouse-main-board;make clean)
+
 update:
 	git add .
 	git commit -am "update"

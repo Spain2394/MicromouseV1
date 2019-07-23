@@ -2,7 +2,7 @@
 This page contains the dependencies and needed drivers to operate the micromouse.
 
 --------
-# Dependencies
+# Getting started visit [MicromouseV1_Software](https://github.com/uga-robotics/MicromouseV1_Software)
 
 # Useful Links
 

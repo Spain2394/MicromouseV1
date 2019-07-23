@@ -9,7 +9,10 @@ This page contains the procedures needed to assemble your micromouse.
 
 ### Useful Links
 - [Microcontroller (STM32F103RET6) Datasheet](https://static6.arrow.com/aropdfconversion/e79ced670cb149ee24e5f1de20d472baa245090d/403en.stm32f103rc.pdf)
-- [Motor Encoder (EI2-128) Datasheet](http://www.robotstorehk.com/soccer/doc/ie2-512.pdf)
+- [Motor Encoder (EI2-128) Datasheet](https://www.faulhaber.com/fileadmin/Import/Media/EN_IE2-1024_DFF.pdf)
+- [Motor Driver Datasheet](http://www.ti.com/lit/ds/symlink/drv8848.pdf)
+- [Motor Datasheet (1717T006)](https://www.micromo.com/media/pdfs/1717_SR.pdf)
+- [Motor Encoder Interface](https://www.sparkfun.com/products/10651)
 
 ### Next
 <!-- Link to software repo README -->
