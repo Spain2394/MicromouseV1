@@ -17870,7 +17870,7 @@ Current Limit = 400 mA</text>
 <label x="467.868" y="-114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="(USART1)_X" class="0">
+<net name="(USART1)_TX" class="0">
 <segment>
 <pinref part="CR1" gate="A" pin="PA10"/>
 <wire x1="462.28" y1="-109.22" x2="467.868" y2="-109.22" width="0.1524" layer="91" style="longdash"/>

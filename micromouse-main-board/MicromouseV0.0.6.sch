@@ -17038,7 +17038,7 @@ Current Limit = 400 mA</text>
 <text x="-146.558" y="-28.702" size="1.27" layer="98">Use PWM for speed control</text>
 <wire x1="231.902" y1="136.144" x2="231.902" y2="257.556" width="0.1524" layer="97" style="longdash"/>
 <wire x1="231.902" y1="257.556" x2="403.352" y2="257.556" width="0.1524" layer="97" style="longdash"/>
-<text x="48.26" y="-22.86" size="1.778" layer="94">NOTE: RC VALUES ARE NOT SET YET THESE ARE PLACEHOLDER VALUES</text>
+<text x="-7.62" y="-20.32" size="1.778" layer="94">NOTE: RC VALUES ARE NOT SET YET THESE ARE PLACEHOLDER VALUES. MIGHT ALSO NEED OP AMP AT END OF CIRCUIT</text>
 </plain>
 <instances>
 <instance part="REC_LF" gate="G$1" x="449.58" y="193.04" smashed="yes"/>
