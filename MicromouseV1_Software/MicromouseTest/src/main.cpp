@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include<Wire.h>
+#include <Wire.h>
 
 const int MPU6050_addr=0x68;
 
@@ -19,6 +19,7 @@ void setup(){
   Wire.endTransmission(true);
   pinMode(PC13, OUTPUT);
   Serial.begin(9600);
+  Serial.println("Calibrating MPU6050...");
   calibrate();
 }
 void loop(){
@@ -73,7 +74,11 @@ void loop(){
   Serial.print(" Y = "); Serial.print(GyY + GyYcal);
   Serial.print(" Z = "); Serial.println(GyZ + GyZcal);
 
-  Serial.print("Temperature in celsius = "); Serial.print(t);
+  Serial.print("Temperature in celsius = "); Serial.println(t);
+
+  int raw_ir = analogRead(PA0);
+  float voltage_ir = (float(raw_ir)/4096.0f)*3.3;
+  Serial.print("IR = ");Serial.print(voltage_ir);
 
   Serial.println("\n");
   delay(500);
@@ -124,16 +129,6 @@ void calibrate(){
   GyX /= 1000;
   GyY /= 1000;
   GyZ /= 1000;
-
-  // Serial.print("Accelerometer: ");
-  // Serial.print("X = "); Serial.print(AcX);
-  // Serial.print(" Y = "); Serial.print(AcY);
-  // Serial.print(" Z = "); Serial.println(AcZ);
-  //
-  // Serial.print("Gyroscope: ");
-  // Serial.print("X = "); Serial.print(GyX);
-  // Serial.print(" Y = "); Serial.print(GyY);
-  // Serial.print(" Z = "); Serial.println(GyZ);
 
   while(abs(AcZ  + AcZcal - 9.81) > 0.01){
     if(AcZ  + AcZcal - 9.81 > 0.01){
