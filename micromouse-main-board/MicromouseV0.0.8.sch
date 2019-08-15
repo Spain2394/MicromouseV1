@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -19008,16 +19008,10 @@ Current Limit = 400 mA</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<<<<<<< HEAD:micromouse-main-board/MicromouseV0.0.6.s#2
-<pinref part="CR1" gate="A" pin="PA9"/>
-<wire x1="462.28" y1="-114.3" x2="476.25" y2="-114.3" width="0.1524" layer="91"/>
-<label x="476.25" y="-114.3" size="1.27" layer="95" xref="yes"/>
-=======
 <pinref part="C_GY_REG" gate="G$1" pin="1"/>
 <wire x1="129.286" y1="106.934" x2="129.286" y2="114.554" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="REGOUT"/>
 <wire x1="129.286" y1="114.554" x2="152.146" y2="114.554" width="0.1524" layer="91"/>
->>>>>>> 70935af8284e3ce860e257a44d9e947164744567:micromouse-main-board/MicromouseV0.0.8.sch
 </segment>
 </net>
 <net name="N$29" class="0">
