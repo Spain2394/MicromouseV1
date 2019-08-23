@@ -19,7 +19,7 @@ You need these components to enable the micromouse to sense its environment and
 | Tires| 1 | $9.51| [eBay](https://www.ebay.com/itm/Kyosho-Mini-Z-MZW2-20-High-Grip-Tire-Set-20/302534111257?epid=1501440182&hash=item4670703019:g:skUAAOSwVqlaEGUR)|
 | Wheels | 1 | $2.99 | [ReFlexRacing](http://www.reflexracing.net/Atomic-Mini-Z-AWD-Narrow-Split-Spoke-Wheels-0-offset-black_p_614.html)|
 
-**Subtotal: $-----**
+**Subtotal: $**
 
 ## Optional/Testing Parts
 | Part          | Qty           | Cost |URL                                     |
