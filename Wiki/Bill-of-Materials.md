@@ -14,7 +14,7 @@ You need these components to enable the micromouse to sense its environment and
 | IR Emitter      |     6 |   $ 4.62| [Digikey](https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/SFH-4545/475-2919-ND/2205955)|
 | IR Reciever      |  6    |  $4.26  |[Digikey](https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/TEFT4300/751-1041-ND/1681175)|
 |   PCB Boards    |  10|    $18.81|[JLCPCB](https://jlcpcb.com)|
-|  Encoder (IE2 – 1024) + Moto(1516T006SR)      |4 | 122.90 |[Faulhauber](https://www.faulhaber.com/en/products/series/ie2-1024/)|
+|  Encoder (IE2 – 1024) + Moto(1516T006SR)      |4 | $122.90 |[Faulhauber](https://www.faulhaber.com/en/products/series/ie2-1024/)|
 | Tires| 1 | $9.51| [eBay](https://www.ebay.com/itm/Kyosho-Mini-Z-MZW2-20-High-Grip-Tire-Set-20/302534111257?epid=1501440182&hash=item4670703019:g:skUAAOSwVqlaEGUR)|
 | Wheels | 1 | $2.99 | [ReFlexRacing](http://www.reflexracing.net/Atomic-Mini-Z-AWD-Narrow-Split-Spoke-Wheels-0-offset-black_p_614.html)|
 
