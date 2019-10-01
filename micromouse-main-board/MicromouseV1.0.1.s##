@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.000000123031" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -16368,7 +16368,7 @@ Current Limit = 400 mA</text>
 </instance>
 <instance part="U6" gate="G$1" x="167.386" y="117.094" smashed="yes">
 <attribute name="NAME" x="154.686" y="127.508" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="154.686" y="106.68" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="VALUE" x="162.306" y="104.14" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="C_GY_REG" gate="G$1" x="129.286" y="101.854" smashed="yes">
 <attribute name="NAME" x="130.81" y="104.775" size="1.778" layer="95"/>
