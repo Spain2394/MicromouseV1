@@ -13,6 +13,7 @@ This page contains the procedures needed to assemble your micromouse.
 - [Motor Driver Datasheet](http://www.ti.com/lit/ds/symlink/drv8848.pdf)
 - [Motor Datasheet (1717T006)](https://www.micromo.com/media/pdfs/1717_SR.pdf)
 - [Motor Encoder Interface](https://www.sparkfun.com/products/10651)
+- [Blue Pill pinout](https://github.com/uga-robotics/MicromouseV1/blob/master/docs/datasheets/STM32bluepillarduinoguide.pdf)
 
 ### Next
 <!-- Link to software repo README -->
