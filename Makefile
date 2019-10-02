@@ -5,6 +5,7 @@ clean:
 	#make current dir clean
 	find . -name '*~' -delete
 	find . -name '*#' -delete
+	find . -name '*.html' -delete
 
 	./clean.sh
 
