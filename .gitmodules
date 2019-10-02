@@ -1,3 +1,6 @@
 [submodule "MicromouseV1_Software"]
 	path = MicromouseV1_Software
 	url = https://github.com/uga-robotics/MicromouseV1_Software.git
+[submodule "MicromouseV1_Software/MicromouseV1_Software"]
+	path = MicromouseV1_Software/MicromouseV1_Software
+	url = https://github.com/uga-robotics/MicromouseV1_Software.git
