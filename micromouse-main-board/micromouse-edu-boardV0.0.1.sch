@@ -16137,21 +16137,21 @@ Model B+ &amp;nbsp; all pins connected</description>
 </class>
 </classes>
 <parts>
-<part name="REC_LF" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
+<part name="REC_1" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
 <part name="R_RLF" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="1.8k"/>
-<part name="U$7" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
+<part name="REC_2" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
 <part name="R_RLD" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="1.8k"/>
-<part name="U$8" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
+<part name="REC_3" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
 <part name="R_RRD" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="1.8k"/>
-<part name="U$9" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
+<part name="REC_4" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
 <part name="R_RRF" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="1.8k"/>
-<part name="LEFT_FRONT_EMITTER" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
+<part name="E1" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
 <part name="R_ELF" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="10"/>
 <part name="R_ELF_PD" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="47k"/>
-<part name="U$11" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
+<part name="E3" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
 <part name="R_ED1" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="5.6"/>
 <part name="R_ED_PD" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="47k"/>
-<part name="U$13" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
+<part name="E4" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
 <part name="R_ERF" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="10"/>
 <part name="R_ERF_PD" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="47k"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -16166,16 +16166,16 @@ Model B+ &amp;nbsp; all pins connected</description>
 <part name="U$12" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="MY_MM_MOTOR_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:12230969/3"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$17" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
-<part name="U$18" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
-<part name="U$19" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
+<part name="E2" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
+<part name="E5" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
+<part name="E6" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:12230996/2"/>
 <part name="R_EH1" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="5.6"/>
 <part name="R_EH2" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="5.6"/>
 <part name="R_EH_PD" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="47k"/>
 <part name="C_E_H2" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:12230963/1" value="0.1uF"/>
 <part name="C_E_H1" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:12230963/1" value="4.7uF"/>
-<part name="U$20" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
-<part name="U$21" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
+<part name="REC_5" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
+<part name="REC_6" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:12230997/1"/>
 <part name="R_RRH" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="1.8k"/>
 <part name="R_RLH" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:12230986/1" value="1.8k"/>
 <part name="NMOS1" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="DMN3150LW" device="" package3d_urn="urn:adsk.eagle:package:12230971/1"/>
@@ -16196,8 +16196,8 @@ Model B+ &amp;nbsp; all pins connected</description>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-4.6X2.8MM" value="RESET"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R_VM1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="75k"/>
-<part name="R_VM2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="25k"/>
+<part name="R_VM1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
+<part name="R_VM2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="33k"/>
 <part name="5V" library="SparkFun-Aesthetics" deviceset="V_BATT" device="" value="5V"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="V_BATT" device="" value="V_BATT"/>
 <part name="U$1" library="JST_CONNECTOR_FEMALE. through hole" deviceset="JST_CONNECTOR_FEMALE" device=""/>
@@ -16207,8 +16207,8 @@ Model B+ &amp;nbsp; all pins connected</description>
 <part name="V_BATT" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY1" library="Corgi_V3.8.5" library_urn="urn:adsk.eagle:library:8483107" deviceset="VCC" device="" value="3.3V"/>
 <part name="C12" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:12230963/1" value="0.1 uF"/>
-<part name="C13" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:12230963/1" value="0.01uF"/>
-<part name="C1" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:12230963/1" value="1.1uF"/>
+<part name="C13" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:12230963/1" value="1nF"/>
+<part name="C1" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:12230963/1" value="1.0uF"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C5" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:12230963/1" value="0.1uF"/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -16258,13 +16258,11 @@ Model B+ &amp;nbsp; all pins connected</description>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$3" library="TPS73633(SOT-23)" deviceset="TPS73633(SOT-23)" device=""/>
 <part name="C_NR" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C_BAT2" library="SparkFun" deviceset="CAP" device="1210" value="47uF"/>
 <part name="LED_PWR" library="SparkFun" deviceset="LED" device="1206" value="green"/>
 <part name="R_PWR" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
 <part name="C_3.3V2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="1007" value="10uH"/>
 <part name="C_BAT1" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C_5V2" library="SparkFun" deviceset="CAP" device="1210" value="47uF"/>
 <part name="J4" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:12230952/1"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U6" library="SparkFun-Sensors" deviceset="MPU-6000" device=""/>
@@ -16300,6 +16298,10 @@ Model B+ &amp;nbsp; all pins connected</description>
 <part name="J5" library="HTSS-103-01-G-D" deviceset="HTSS-103-XX-XX-D" device=""/>
 <part name="J6" library="HTSS-102-01-G-D" deviceset="HTSS-102-XX-XX-D" device=""/>
 <part name="J7" library="HTSS-102-01-G-D" deviceset="HTSS-102-XX-XX-D" device=""/>
+<part name="C_5V3" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C_5V2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="47uF"/>
+<part name="C_BAT2" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C10" library="MicromouseV0.0.4" library_urn="urn:adsk.eagle:library:12230880" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:12230963/1" value="10nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -16389,27 +16391,27 @@ Current Limit = 400 mA</text>
 <text x="-60.96" y="-233.68" size="1.778" layer="94">still under construction</text>
 </plain>
 <instances>
-<instance part="REC_LF" gate="G$1" x="449.58" y="193.04" smashed="yes"/>
+<instance part="REC_1" gate="G$1" x="449.58" y="193.04" smashed="yes"/>
 <instance part="R_RLF" gate="G$1" x="452.12" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="450.6214" y="171.45" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="455.422" y="171.45" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$7" gate="G$1" x="482.6" y="193.04" smashed="yes"/>
+<instance part="REC_2" gate="G$1" x="482.6" y="193.04" smashed="yes"/>
 <instance part="R_RLD" gate="G$1" x="485.14" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="483.6414" y="171.45" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="488.442" y="171.45" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$8" gate="G$1" x="518.16" y="193.04" smashed="yes"/>
+<instance part="REC_3" gate="G$1" x="518.16" y="193.04" smashed="yes"/>
 <instance part="R_RRD" gate="G$1" x="520.7" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="519.2014" y="171.45" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="524.002" y="171.45" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$9" gate="G$1" x="556.26" y="193.04" smashed="yes"/>
+<instance part="REC_4" gate="G$1" x="556.26" y="193.04" smashed="yes"/>
 <instance part="R_RRF" gate="G$1" x="558.8" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="557.3014" y="171.45" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="562.102" y="171.45" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LEFT_FRONT_EMITTER" gate="G$1" x="452.12" y="106.68" smashed="yes"/>
+<instance part="E1" gate="G$1" x="452.12" y="106.68" smashed="yes"/>
 <instance part="R_ELF" gate="G$1" x="452.12" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="450.6214" y="85.09" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="455.422" y="85.09" size="1.778" layer="96" rot="R90"/>
@@ -16418,7 +16420,7 @@ Current Limit = 400 mA</text>
 <attribute name="NAME" x="432.8414" y="57.15" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="437.642" y="57.15" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$11" gate="G$1" x="508" y="114.3" smashed="yes"/>
+<instance part="E3" gate="G$1" x="508" y="114.3" smashed="yes"/>
 <instance part="R_ED1" gate="G$1" x="508" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="506.5014" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="511.302" y="80.01" size="1.778" layer="96" rot="R90"/>
@@ -16427,7 +16429,7 @@ Current Limit = 400 mA</text>
 <attribute name="NAME" x="488.7214" y="57.15" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="493.522" y="57.15" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$13" gate="G$1" x="574.04" y="106.68" smashed="yes"/>
+<instance part="E4" gate="G$1" x="574.04" y="106.68" smashed="yes"/>
 <instance part="R_ERF" gate="G$1" x="574.04" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="572.5414" y="85.09" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="577.342" y="85.09" size="1.778" layer="96" rot="R90"/>
@@ -16477,9 +16479,9 @@ Current Limit = 400 mA</text>
 <instance part="GND7" gate="1" x="-12.446" y="-210.566" smashed="yes">
 <attribute name="VALUE" x="-14.986" y="-213.106" size="1.778" layer="96"/>
 </instance>
-<instance part="U$17" gate="G$1" x="508" y="99.06" smashed="yes"/>
-<instance part="U$18" gate="G$1" x="624.84" y="114.3" smashed="yes"/>
-<instance part="U$19" gate="G$1" x="624.84" y="99.06" smashed="yes"/>
+<instance part="E2" gate="G$1" x="508" y="99.06" smashed="yes"/>
+<instance part="E5" gate="G$1" x="624.84" y="114.3" smashed="yes"/>
+<instance part="E6" gate="G$1" x="624.84" y="99.06" smashed="yes"/>
 <instance part="R_EH1" gate="G$1" x="624.84" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="623.3414" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="628.142" y="80.01" size="1.778" layer="96" rot="R90"/>
@@ -16500,8 +16502,8 @@ Current Limit = 400 mA</text>
 <attribute name="NAME" x="644.144" y="107.061" size="1.778" layer="95"/>
 <attribute name="VALUE" x="644.144" y="101.981" size="1.778" layer="96"/>
 </instance>
-<instance part="U$20" gate="G$1" x="596.9" y="193.04" smashed="yes"/>
-<instance part="U$21" gate="G$1" x="637.54" y="193.04" smashed="yes"/>
+<instance part="REC_5" gate="G$1" x="596.9" y="193.04" smashed="yes"/>
+<instance part="REC_6" gate="G$1" x="637.54" y="193.04" smashed="yes"/>
 <instance part="R_RRH" gate="G$1" x="599.44" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="597.9414" y="171.45" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="602.742" y="171.45" size="1.778" layer="96" rot="R90"/>
@@ -16776,10 +16778,6 @@ Current Limit = 400 mA</text>
 <attribute name="NAME" x="161.29" y="176.403" size="1.778" layer="95"/>
 <attribute name="VALUE" x="161.29" y="171.323" size="1.778" layer="96"/>
 </instance>
-<instance part="C_BAT2" gate="G$1" x="126.746" y="211.582" smashed="yes">
-<attribute name="NAME" x="128.27" y="214.503" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.27" y="209.423" size="1.778" layer="96"/>
-</instance>
 <instance part="LED_PWR" gate="G$1" x="197.866" y="211.582" smashed="yes">
 <attribute name="NAME" x="201.422" y="207.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="203.581" y="207.01" size="1.778" layer="96" rot="R90"/>
@@ -16799,10 +16797,6 @@ Current Limit = 400 mA</text>
 <instance part="C_BAT1" gate="G$1" x="114.046" y="211.582" smashed="yes">
 <attribute name="NAME" x="115.57" y="214.503" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.57" y="209.423" size="1.778" layer="96"/>
-</instance>
-<instance part="C_5V2" gate="G$1" x="185.166" y="216.662" smashed="yes">
-<attribute name="NAME" x="186.69" y="219.583" size="1.778" layer="95"/>
-<attribute name="VALUE" x="186.69" y="214.503" size="1.778" layer="96"/>
 </instance>
 <instance part="J4" gate="G$1" x="286.766" y="-38.354" smashed="yes">
 <attribute name="VALUE" x="281.686" y="-45.72" size="1.778" layer="96" font="vector"/>
@@ -16926,6 +16920,22 @@ Current Limit = 400 mA</text>
 <instance part="J7" gate="G$1" x="-66.04" y="142.24" smashed="yes">
 <attribute name="NAME" x="-60.96" y="145.542" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-60.96" y="135.128" size="1.27" layer="96"/>
+</instance>
+<instance part="C_5V3" gate="G$1" x="185.166" y="198.882" smashed="yes">
+<attribute name="NAME" x="186.69" y="201.803" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.69" y="196.723" size="1.778" layer="96"/>
+</instance>
+<instance part="C_5V2" gate="G$1" x="185.166" y="216.662" smashed="yes">
+<attribute name="NAME" x="186.69" y="219.583" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.69" y="214.503" size="1.778" layer="96"/>
+</instance>
+<instance part="C_BAT2" gate="G$1" x="126.746" y="211.582" smashed="yes">
+<attribute name="NAME" x="128.27" y="214.503" size="1.778" layer="95"/>
+<attribute name="VALUE" x="128.27" y="209.423" size="1.778" layer="96"/>
+</instance>
+<instance part="C10" gate="G$1" x="219.71" y="-142.24" smashed="yes">
+<attribute name="NAME" x="213.614" y="-144.399" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.344" y="-139.827" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -17108,6 +17118,9 @@ Current Limit = 400 mA</text>
 <wire x1="236.474" y1="-137.16" x2="242.57" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="236.474" y="-137.16"/>
 <junction x="242.57" y="-137.16"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="219.71" y1="-137.16" x2="232.41" y2="-137.16" width="0.1524" layer="91"/>
+<junction x="232.41" y="-137.16"/>
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="2"/>
@@ -17153,7 +17166,6 @@ Current Limit = 400 mA</text>
 <wire x1="126.746" y1="206.502" x2="175.006" y2="206.502" width="0.1524" layer="91"/>
 <wire x1="175.006" y1="206.502" x2="175.006" y2="214.122" width="0.1524" layer="91"/>
 <junction x="126.746" y="206.502"/>
-<pinref part="C_BAT2" gate="G$1" pin="2"/>
 <pinref part="LED_PWR" gate="G$1" pin="C"/>
 <wire x1="197.866" y1="206.502" x2="185.166" y2="206.502" width="0.1524" layer="91"/>
 <junction x="175.006" y="206.502"/>
@@ -17161,9 +17173,10 @@ Current Limit = 400 mA</text>
 <wire x1="185.166" y1="206.502" x2="175.006" y2="206.502" width="0.1524" layer="91"/>
 <wire x1="114.046" y1="209.042" x2="114.046" y2="206.502" width="0.1524" layer="91"/>
 <junction x="114.046" y="206.502"/>
-<pinref part="C_5V2" gate="G$1" pin="2"/>
 <wire x1="185.166" y1="214.122" x2="185.166" y2="206.502" width="0.1524" layer="91"/>
 <junction x="185.166" y="206.502"/>
+<pinref part="C_5V2" gate="G$1" pin="2"/>
+<pinref part="C_BAT2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="116.586" y1="186.182" x2="116.586" y2="170.942" width="0.1524" layer="91"/>
@@ -17264,12 +17277,12 @@ Current Limit = 400 mA</text>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="+"/>
+<pinref part="E4" gate="G$1" pin="+"/>
 <wire x1="574.04" y1="111.76" x2="574.04" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="+"/>
+<pinref part="E3" gate="G$1" pin="+"/>
 <wire x1="508" y1="119.38" x2="508" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="574.04" y1="124.46" x2="523.24" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="LEFT_FRONT_EMITTER" gate="G$1" pin="+"/>
+<pinref part="E1" gate="G$1" pin="+"/>
 <wire x1="523.24" y1="124.46" x2="508" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="452.12" y1="111.76" x2="452.12" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="508" y1="124.46" x2="464.82" y2="124.46" width="0.1524" layer="91"/>
@@ -17297,7 +17310,7 @@ Current Limit = 400 mA</text>
 <pinref part="C_ERF2" gate="G$1" pin="1"/>
 <wire x1="594.36" y1="109.22" x2="584.2" y2="109.22" width="0.1524" layer="91"/>
 <junction x="584.2" y="109.22"/>
-<pinref part="U$18" gate="G$1" pin="+"/>
+<pinref part="E5" gate="G$1" pin="+"/>
 <wire x1="584.2" y1="124.46" x2="624.84" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="624.84" y1="124.46" x2="624.84" y2="119.38" width="0.1524" layer="91"/>
 <junction x="584.2" y="124.46"/>
@@ -17352,9 +17365,9 @@ Current Limit = 400 mA</text>
 <label x="202.946" y="229.362" size="1.778" layer="95" xref="yes"/>
 <pinref part="R_PWR" gate="G$1" pin="2"/>
 <junction x="197.866" y="229.362"/>
-<pinref part="C_5V2" gate="G$1" pin="1"/>
 <wire x1="185.166" y1="229.362" x2="185.166" y2="221.742" width="0.1524" layer="91"/>
 <junction x="185.166" y="229.362"/>
+<pinref part="C_5V2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="126.746" y1="193.802" x2="124.206" y2="193.802" width="0.1524" layer="91"/>
@@ -17435,7 +17448,7 @@ Current Limit = 400 mA</text>
 </net>
 <net name="REC_LF" class="0">
 <segment>
-<pinref part="REC_LF" gate="G$1" pin="E"/>
+<pinref part="REC_1" gate="G$1" pin="E"/>
 <pinref part="R_RLF" gate="G$1" pin="2"/>
 <wire x1="452.12" y1="187.96" x2="452.12" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="452.12" y1="182.88" x2="452.12" y2="180.34" width="0.1524" layer="91"/>
@@ -17463,7 +17476,7 @@ Current Limit = 400 mA</text>
 </net>
 <net name="REC_LD" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="E"/>
+<pinref part="REC_2" gate="G$1" pin="E"/>
 <pinref part="R_RLD" gate="G$1" pin="2"/>
 <wire x1="485.14" y1="187.96" x2="485.14" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="485.14" y1="182.88" x2="485.14" y2="180.34" width="0.1524" layer="91"/>
@@ -17491,7 +17504,7 @@ Current Limit = 400 mA</text>
 </net>
 <net name="REC_RF" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="E"/>
+<pinref part="REC_4" gate="G$1" pin="E"/>
 <pinref part="R_RRF" gate="G$1" pin="2"/>
 <wire x1="558.8" y1="187.96" x2="558.8" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="182.88" x2="558.8" y2="180.34" width="0.1524" layer="91"/>
@@ -17607,7 +17620,7 @@ Current Limit = 400 mA</text>
 </net>
 <net name="REC_RD" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="E"/>
+<pinref part="REC_3" gate="G$1" pin="E"/>
 <pinref part="R_RRD" gate="G$1" pin="2"/>
 <wire x1="520.7" y1="187.96" x2="520.7" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="520.7" y1="182.88" x2="520.7" y2="180.34" width="0.1524" layer="91"/>
@@ -17635,7 +17648,7 @@ Current Limit = 400 mA</text>
 </net>
 <net name="LF_EM" class="0">
 <segment>
-<pinref part="LEFT_FRONT_EMITTER" gate="G$1" pin="-"/>
+<pinref part="E1" gate="G$1" pin="-"/>
 <pinref part="R_ELF" gate="G$1" pin="2"/>
 <wire x1="452.12" y1="101.6" x2="452.12" y2="93.98" width="0.1524" layer="91"/>
 </segment>
@@ -17652,7 +17665,7 @@ Current Limit = 400 mA</text>
 </net>
 <net name="RF_EM" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="-"/>
+<pinref part="E4" gate="G$1" pin="-"/>
 <pinref part="R_ERF" gate="G$1" pin="2"/>
 <wire x1="574.04" y1="101.6" x2="574.04" y2="93.98" width="0.1524" layer="91"/>
 </segment>
@@ -17692,26 +17705,26 @@ Current Limit = 400 mA</text>
 <net name="A3.3V" class="0">
 <segment>
 <wire x1="436.88" y1="205.74" x2="452.12" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="C"/>
+<pinref part="REC_4" gate="G$1" pin="C"/>
 <wire x1="452.12" y1="205.74" x2="485.14" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="485.14" y1="205.74" x2="520.7" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="520.7" y1="205.74" x2="558.8" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="558.8" y1="205.74" x2="558.8" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="C"/>
+<pinref part="REC_3" gate="G$1" pin="C"/>
 <wire x1="520.7" y1="205.74" x2="520.7" y2="198.12" width="0.1524" layer="91"/>
 <junction x="520.7" y="205.74"/>
-<pinref part="U$7" gate="G$1" pin="C"/>
+<pinref part="REC_2" gate="G$1" pin="C"/>
 <wire x1="485.14" y1="205.74" x2="485.14" y2="198.12" width="0.1524" layer="91"/>
 <junction x="485.14" y="205.74"/>
-<pinref part="REC_LF" gate="G$1" pin="C"/>
+<pinref part="REC_1" gate="G$1" pin="C"/>
 <wire x1="452.12" y1="205.74" x2="452.12" y2="198.12" width="0.1524" layer="91"/>
 <junction x="452.12" y="205.74"/>
 <label x="436.88" y="205.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$20" gate="G$1" pin="C"/>
+<pinref part="REC_5" gate="G$1" pin="C"/>
 <wire x1="599.44" y1="198.12" x2="599.44" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="599.44" y1="205.74" x2="558.8" y2="205.74" width="0.1524" layer="91"/>
 <junction x="558.8" y="205.74"/>
-<pinref part="U$21" gate="G$1" pin="C"/>
+<pinref part="REC_6" gate="G$1" pin="C"/>
 <wire x1="640.08" y1="198.12" x2="640.08" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="640.08" y1="205.74" x2="599.44" y2="205.74" width="0.1524" layer="91"/>
 <junction x="599.44" y="205.74"/>
@@ -17813,15 +17826,15 @@ Current Limit = 400 mA</text>
 </net>
 <net name="D_EM" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="-"/>
-<pinref part="U$17" gate="G$1" pin="+"/>
+<pinref part="E3" gate="G$1" pin="-"/>
+<pinref part="E2" gate="G$1" pin="+"/>
 <wire x1="508" y1="109.22" x2="508" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="H_EM" class="0">
 <segment>
-<pinref part="U$18" gate="G$1" pin="-"/>
-<pinref part="U$19" gate="G$1" pin="+"/>
+<pinref part="E5" gate="G$1" pin="-"/>
+<pinref part="E6" gate="G$1" pin="+"/>
 <wire x1="624.84" y1="109.22" x2="624.84" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -17837,7 +17850,7 @@ Current Limit = 400 mA</text>
 </net>
 <net name="REC_RH" class="0">
 <segment>
-<pinref part="U$20" gate="G$1" pin="E"/>
+<pinref part="REC_5" gate="G$1" pin="E"/>
 <pinref part="R_RRH" gate="G$1" pin="2"/>
 <wire x1="599.44" y1="187.96" x2="599.44" y2="180.34" width="0.1524" layer="91"/>
 <label x="599.44" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -17863,7 +17876,7 @@ Current Limit = 400 mA</text>
 <net name="REC_LH" class="0">
 <segment>
 <pinref part="R_RLH" gate="G$1" pin="2"/>
-<pinref part="U$21" gate="G$1" pin="E"/>
+<pinref part="REC_6" gate="G$1" pin="E"/>
 <wire x1="640.08" y1="180.34" x2="640.08" y2="187.96" width="0.1524" layer="91"/>
 <label x="640.08" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -17905,14 +17918,14 @@ Current Limit = 400 mA</text>
 <pinref part="R_ED1" gate="G$1" pin="2"/>
 <pinref part="R_ED2" gate="G$1" pin="2"/>
 <wire x1="508" y1="88.9" x2="518.16" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="-"/>
+<pinref part="E2" gate="G$1" pin="-"/>
 <wire x1="508" y1="93.98" x2="508" y2="88.9" width="0.1524" layer="91"/>
 <junction x="508" y="88.9"/>
 </segment>
 </net>
 <net name="H2_EM" class="0">
 <segment>
-<pinref part="U$19" gate="G$1" pin="-"/>
+<pinref part="E6" gate="G$1" pin="-"/>
 <pinref part="R_EH1" gate="G$1" pin="2"/>
 <wire x1="624.84" y1="93.98" x2="624.84" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R_EH2" gate="G$1" pin="2"/>
@@ -18199,6 +18212,9 @@ Current Limit = 400 mA</text>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
 <wire x1="236.22" y1="-144.78" x2="232.41" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="236.22" y="-144.78"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="219.71" y1="-144.78" x2="232.41" y2="-144.78" width="0.1524" layer="91"/>
+<junction x="232.41" y="-144.78"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="3V3A"/>
@@ -18234,10 +18250,10 @@ Current Limit = 400 mA</text>
 <wire x1="129.286" y1="221.742" x2="126.746" y2="221.742" width="0.1524" layer="91"/>
 <junction x="126.746" y="221.742"/>
 <label x="93.726" y="229.362" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C_BAT2" gate="G$1" pin="1"/>
 <pinref part="C_BAT1" gate="G$1" pin="1"/>
 <wire x1="126.746" y1="221.742" x2="114.046" y2="221.742" width="0.1524" layer="91"/>
 <wire x1="114.046" y1="221.742" x2="114.046" y2="216.662" width="0.1524" layer="91"/>
+<pinref part="C_BAT2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="IP-_2"/>
