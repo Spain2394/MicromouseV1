@@ -8,7 +8,6 @@ clean:
 	$(RM) *.l#[0-9]
 	$(RM) *.job
 	$(RM) *.log
-	$(RM) *.scr
 	$(RM) *.pro
 	
 

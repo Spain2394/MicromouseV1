@@ -1,0 +1,6 @@
+all: 
+
+clean:	
+	$(RM) *.zip
+	
+
