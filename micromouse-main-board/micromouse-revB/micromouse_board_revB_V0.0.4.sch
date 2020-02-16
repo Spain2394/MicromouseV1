@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -12802,6 +12802,9 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <class number="5" name="3.3V" width="0.508" drill="0.254">
 <clearance class="5" value="0.254"/>
 </class>
+<class number="6" name="GND" width="0.508" drill="0.254">
+<clearance class="6" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="REC_LF" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RECEIVER" device="" package3d_urn="urn:adsk.eagle:package:14781797/2"/>
@@ -12953,6 +12956,12 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="1007" value="10uH"/>
 <part name="J2" library="B2B-PH-K-S_LF__SN_" deviceset="B2B-PH-K-S(LF)(SN)" device=""/>
 <part name="J3" library="B2B-PH-K-S_LF__SN_" deviceset="B2B-PH-K-S(LF)(SN)" device=""/>
+<part name="B2" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD"/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="C_NRST1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="B3" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD"/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="C_NRST2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -13020,13 +13029,11 @@ Current Limit = 400 mA</text>
 <wire x1="222.504" y1="-297.942" x2="221.234" y2="-146.304" width="0.1524" layer="97" style="longdash"/>
 <wire x1="221.234" y1="-146.304" x2="221.488" y2="-2.794" width="0.1524" layer="97" style="longdash"/>
 <wire x1="58.928" y1="-145.288" x2="221.234" y2="-146.304" width="0.1524" layer="97" style="longdash"/>
-<text x="236.22" y="-98.425" size="1.27" layer="91">PB14/PB15</text>
 <text x="498.856" y="44.704" size="1.27" layer="91">PB14/PB15</text>
 <text x="100.838" y="-191.262" size="1.778" layer="94">checked</text>
 <wire x1="231.902" y1="257.556" x2="20.447" y2="257.937" width="0.1524" layer="97" style="longdash"/>
 <wire x1="20.447" y1="257.937" x2="20.193" y2="-2.413" width="0.1524" layer="97" style="longdash"/>
 <text x="75.438" y="251.714" size="2.54" layer="94">Power Management</text>
-<text x="235.712" y="-101.092" size="1.778" layer="91">SWITCH TO SET MODE</text>
 <text x="7.366" y="-203.073" size="1.778" layer="91">Test motors and encoders
 </text>
 <text x="-139.192" y="-58.166" size="1.27" layer="91">C_D2 must be rated
@@ -13051,6 +13058,8 @@ to atleast 6.3 V</text>
 <text x="128.651" y="144.526" size="1.27" layer="91">+/-1% output voltage accuracy </text>
 <text x="83.185" y="-92.329" size="1.27" layer="91">C3 needs to be rated for 50 V </text>
 <text x="405.892" y="131.826" size="1.778" layer="91">Make 1/2 W resistors</text>
+<text x="287.02" y="-129.54" size="1.27" layer="94">ADC123_IN12 </text>
+<text x="287.02" y="-134.62" size="1.27" layer="94">ADC123_IN13 </text>
 </plain>
 <instances>
 <instance part="REC_LF" gate="G$1" x="449.58" y="193.04" smashed="yes"/>
@@ -13543,6 +13552,28 @@ to atleast 6.3 V</text>
 <attribute name="NAME" x="347.975640625" y="225.81166875" size="1.78105" layer="95"/>
 <attribute name="VALUE" x="347.975409375" y="214.870240625" size="1.781209375" layer="96"/>
 </instance>
+<instance part="B2" gate="S" x="362.839" y="44.831" smashed="yes">
+<attribute name="NAME" x="360.299" y="51.181" size="1.778" layer="95"/>
+<attribute name="VALUE" x="360.299" y="38.481" size="1.778" layer="96"/>
+</instance>
+<instance part="GND23" gate="1" x="355.219" y="34.671" smashed="yes">
+<attribute name="VALUE" x="352.679" y="32.131" size="1.778" layer="96"/>
+</instance>
+<instance part="C_NRST1" gate="G$1" x="372.999" y="37.211" smashed="yes">
+<attribute name="NAME" x="374.523" y="40.132" size="1.778" layer="95"/>
+<attribute name="VALUE" x="374.523" y="35.052" size="1.778" layer="96"/>
+</instance>
+<instance part="B3" gate="S" x="365.379" y="19.431" smashed="yes">
+<attribute name="NAME" x="362.839" y="25.781" size="1.778" layer="95"/>
+<attribute name="VALUE" x="362.839" y="13.081" size="1.778" layer="96"/>
+</instance>
+<instance part="GND24" gate="1" x="360.299" y="6.731" smashed="yes">
+<attribute name="VALUE" x="357.759" y="4.191" size="1.778" layer="96"/>
+</instance>
+<instance part="C_NRST2" gate="G$1" x="375.539" y="11.811" smashed="yes">
+<attribute name="NAME" x="377.063" y="14.732" size="1.778" layer="95"/>
+<attribute name="VALUE" x="377.063" y="9.652" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13873,6 +13904,33 @@ to atleast 6.3 V</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="315.341" y1="98.679" x2="310.007" y2="98.679" width="0.1524" layer="91"/>
 <wire x1="310.007" y1="98.679" x2="310.007" y2="90.043" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="B2" gate="S" pin="2"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="357.759" y1="42.291" x2="355.219" y2="42.291" width="0.1524" layer="91"/>
+<wire x1="355.219" y1="42.291" x2="355.219" y2="37.211" width="0.1524" layer="91"/>
+<pinref part="B2" gate="S" pin="1"/>
+<wire x1="357.759" y1="42.291" x2="357.759" y2="44.831" width="0.1524" layer="91"/>
+<junction x="357.759" y="42.291"/>
+<pinref part="C_NRST1" gate="G$1" pin="2"/>
+<wire x1="372.999" y1="34.671" x2="359.156" y2="34.671" width="0.1524" layer="91"/>
+<wire x1="359.156" y1="34.671" x2="359.156" y2="39.878" width="0.1524" layer="91"/>
+<wire x1="359.156" y1="39.878" x2="355.219" y2="39.878" width="0.1524" layer="91"/>
+<wire x1="355.219" y1="39.878" x2="355.219" y2="37.211" width="0.1524" layer="91"/>
+<junction x="355.219" y="37.211"/>
+</segment>
+<segment>
+<pinref part="B3" gate="S" pin="1"/>
+<wire x1="360.299" y1="19.431" x2="360.299" y2="16.891" width="0.1524" layer="91"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="360.299" y1="16.891" x2="360.299" y2="9.271" width="0.1524" layer="91"/>
+<wire x1="360.299" y1="9.144" x2="360.299" y2="9.271" width="0.1524" layer="91"/>
+<pinref part="B3" gate="S" pin="2"/>
+<junction x="360.299" y="16.891"/>
+<pinref part="C_NRST2" gate="G$1" pin="2"/>
+<wire x1="375.539" y1="9.271" x2="360.299" y2="9.271" width="0.1524" layer="91"/>
+<junction x="360.299" y="9.271"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -14285,7 +14343,6 @@ to atleast 6.3 V</text>
 <segment>
 <pinref part="CR1" gate="A" pin="PC1"/>
 <wire x1="274.32" y1="-124.46" x2="261.62" y2="-124.46" width="0.1524" layer="91"/>
-<label x="264.16" y="-124.46" size="1.27" layer="95"/>
 <label x="261.62" y="-124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -14304,7 +14361,6 @@ to atleast 6.3 V</text>
 <segment>
 <pinref part="CR1" gate="A" pin="PC0"/>
 <wire x1="274.32" y1="-119.38" x2="261.62" y2="-119.38" width="0.1524" layer="91"/>
-<label x="264.16" y="-119.38" size="1.27" layer="95"/>
 <label x="261.62" y="-119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -15137,6 +15193,44 @@ to atleast 6.3 V</text>
 <pinref part="R_PWR1" gate="G$1" pin="1"/>
 <pinref part="5V_PWR1" gate="G$1" pin="A"/>
 <wire x1="75.946" y1="69.977" x2="75.946" y2="67.564" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRGM_2" class="0">
+<segment>
+<pinref part="CR1" gate="A" pin="PC3"/>
+<wire x1="274.32" y1="-134.62" x2="261.62" y2="-134.62" width="0.127" layer="91"/>
+<label x="261.62" y="-134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="B3" gate="S" pin="4"/>
+<pinref part="B3" gate="S" pin="3"/>
+<wire x1="370.459" y1="16.891" x2="370.459" y2="19.431" width="0.1524" layer="91"/>
+<pinref part="C_NRST2" gate="G$1" pin="1"/>
+<wire x1="370.459" y1="19.431" x2="375.539" y2="19.431" width="0.1524" layer="91"/>
+<wire x1="375.539" y1="19.431" x2="375.539" y2="16.891" width="0.1524" layer="91"/>
+<junction x="370.459" y="19.431"/>
+<wire x1="375.539" y1="16.891" x2="375.539" y2="23.876" width="0.1524" layer="91"/>
+<junction x="375.539" y="16.891"/>
+<label x="375.539" y="23.749" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="PRGM_1" class="0">
+<segment>
+<pinref part="CR1" gate="A" pin="PC2"/>
+<wire x1="274.32" y1="-129.54" x2="261.62" y2="-129.54" width="0.1524" layer="91"/>
+<label x="261.62" y="-129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="B2" gate="S" pin="3"/>
+<pinref part="C_NRST1" gate="G$1" pin="1"/>
+<wire x1="367.919" y1="44.831" x2="372.999" y2="44.831" width="0.1524" layer="91"/>
+<wire x1="372.999" y1="44.831" x2="372.999" y2="42.291" width="0.1524" layer="91"/>
+<pinref part="B2" gate="S" pin="4"/>
+<wire x1="367.919" y1="42.291" x2="367.919" y2="44.831" width="0.1524" layer="91"/>
+<junction x="367.919" y="44.831"/>
+<wire x1="372.999" y1="42.291" x2="372.999" y2="49.911" width="0.1524" layer="91"/>
+<junction x="372.999" y="42.291"/>
+<label x="372.999" y="49.911" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>

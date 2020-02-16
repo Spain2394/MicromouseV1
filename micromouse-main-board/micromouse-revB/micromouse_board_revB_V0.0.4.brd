@@ -331,6 +331,7 @@ Use vector font </text>
 <text x="40.386" y="5.334" size="1.27" layer="21">BOOT1</text>
 <text x="46.228" y="2.54" size="1.27" layer="21">GND</text>
 <text x="46.228" y="-4.826" size="1.27" layer="21">3.3V</text>
+<text x="38.25" y="58.15" size="1.778" layer="25" font="vector">RESET</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -3294,6 +3295,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="5" name="3.3V" width="0.508" drill="0.254">
 <clearance class="5" value="0.254"/>
 </class>
+<class number="6" name="GND" width="0.508" drill="0.254">
+<clearance class="6" value="0.254"/>
+</class>
 </classes>
 <designrules name="eC_2Layer_PClass6_BaseCopperO18_eCDefault">
 <description language="de">
@@ -3909,6 +3913,24 @@ Your Eurocircuits Team
 <attribute name="NAME" x="-7.05391875" y="53.39518125" size="1.01753125" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="None" x="-4.45" y="56.6" size="1.016" layer="27" rot="R90" display="off"/>
 </element>
+<element name="B2" library="SparkFun-Retired" package="TACTILE-SWITCH-SMD" value="" x="-88.75" y="-229.65" smashed="yes">
+<attribute name="NAME" x="-89.639" y="-227.872" size="0.4064" layer="25"/>
+<attribute name="PROD_ID" value="SWCH-08247" x="-88.75" y="-229.65" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-89.639" y="-231.682" size="0.4064" layer="27"/>
+</element>
+<element name="C_NRST1" library="SparkFun" package="0603-CAP" value="0.1uF" x="-90.8" y="-233.65" smashed="yes">
+<attribute name="NAME" x="-91.689" y="-232.888" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="-91.816" y="-234.793" size="0.4064" layer="27" font="vector"/>
+</element>
+<element name="B3" library="SparkFun-Retired" package="TACTILE-SWITCH-SMD" value="" x="-88.75" y="-237.95" smashed="yes">
+<attribute name="NAME" x="-89.639" y="-236.172" size="0.4064" layer="25"/>
+<attribute name="PROD_ID" value="SWCH-08247" x="-88.75" y="-237.95" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-89.639" y="-239.982" size="0.4064" layer="27"/>
+</element>
+<element name="C_NRST2" library="SparkFun" package="0603-CAP" value="0.1uF" x="-90.8" y="-241.95" smashed="yes">
+<attribute name="NAME" x="-91.689" y="-241.188" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="-91.816" y="-243.093" size="0.4064" layer="27" font="vector"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3981,6 +4003,12 @@ Your Eurocircuits Team
 <contactref element="U$14" pad="P$3"/>
 <contactref element="CR1" pad="31"/>
 <contactref element="C23" pad="1"/>
+<contactref element="B2" pad="2"/>
+<contactref element="B2" pad="1"/>
+<contactref element="C_NRST1" pad="2"/>
+<contactref element="B3" pad="1"/>
+<contactref element="B3" pad="2"/>
+<contactref element="C_NRST2" pad="2"/>
 <wire x1="92.025" y1="37.001" x2="91.781" y2="42.937" width="0" layer="19" extent="1-1"/>
 <wire x1="94.205" y1="35.99" x2="92.025" y2="37.001" width="0" layer="19" extent="1-1"/>
 <wire x1="90.595" y1="33.319" x2="92.025" y2="37.001" width="0" layer="19" extent="1-1"/>
@@ -4049,6 +4077,12 @@ Your Eurocircuits Team
 <wire x1="0.2" y1="42.85" x2="0.192" y2="34.338" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.14" y1="61.87" x2="-16.73" y2="58.43" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.87" y1="61.97" x2="-8.14" y2="61.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.956" y1="-227.745" x2="-19.27" y2="15.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.544" y1="-227.745" x2="-85.956" y2="-227.745" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.95" y1="-233.65" x2="-91.544" y2="-227.745" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.544" y1="-236.045" x2="-89.95" y2="-233.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.956" y1="-236.045" x2="-89.95" y2="-233.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.95" y1="-241.95" x2="-91.544" y2="-236.045" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="U$13" pad="+"/>
@@ -4589,8 +4623,8 @@ Your Eurocircuits Team
 <contactref element="C_NRST" pad="1"/>
 <contactref element="B1" pad="3"/>
 <contactref element="CR1" pad="7"/>
-<wire x1="36.835" y1="53.868" x2="36.7" y2="48.8" width="0" layer="19" extent="1-1"/>
-<wire x1="54.1719" y1="35.207" x2="36.835" y2="53.868" width="0" layer="19" extent="1-1"/>
+<wire x1="36.7" y1="48.8" x2="36.835" y2="53.868" width="0" layer="19" extent="1-1"/>
+<wire x1="54.1719" y1="35.207" x2="36.7" y2="48.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOT1">
 <contactref element="CR1" pad="28"/>
@@ -4631,6 +4665,24 @@ Your Eurocircuits Team
 <contactref element="R_PWR1" pad="1"/>
 <contactref element="5V_PWR1" pad="A"/>
 <wire x1="-13.438" y1="36.576" x2="-13.55" y2="22.098" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PRGM_2">
+<contactref element="CR1" pad="11"/>
+<contactref element="B3" pad="4"/>
+<contactref element="B3" pad="3"/>
+<contactref element="C_NRST2" pad="1"/>
+<wire x1="-85.956" y1="-239.855" x2="54.1719" y2="33.207" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.544" y1="-239.855" x2="-85.956" y2="-239.855" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.65" y1="-241.95" x2="-91.544" y2="-239.855" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PRGM_1">
+<contactref element="CR1" pad="10"/>
+<contactref element="B2" pad="3"/>
+<contactref element="C_NRST1" pad="1"/>
+<contactref element="B2" pad="4"/>
+<wire x1="-85.956" y1="-231.555" x2="54.1719" y2="33.707" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.544" y1="-231.555" x2="-85.956" y2="-231.555" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.65" y1="-233.65" x2="-91.544" y2="-231.555" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
