@@ -14689,6 +14689,11 @@ to atleast 6.3 V</text>
 <label x="303.53" y="-32.766" size="1.27" layer="95" align="bottom-right"/>
 <label x="304.546" y="-33.274" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="TXD"/>
+<wire x1="-38.1" y1="200.66" x2="-27.94" y2="200.66" width="0.1524" layer="91"/>
+<label x="-27.94" y="200.66" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USART1_TX" class="0">
 <segment>
@@ -14701,6 +14706,11 @@ to atleast 6.3 V</text>
 <wire x1="291.846" y1="-35.814" x2="305.054" y2="-35.814" width="0.1524" layer="91"/>
 <label x="303.276" y="-35.052" size="1.27" layer="95" align="bottom-right"/>
 <label x="304.8" y="-35.814" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="RXD"/>
+<wire x1="-38.1" y1="198.12" x2="-27.94" y2="198.12" width="0.1524" layer="91"/>
+<label x="-27.94" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$26" class="0">

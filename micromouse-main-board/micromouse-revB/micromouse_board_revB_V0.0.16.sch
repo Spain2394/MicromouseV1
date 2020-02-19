@@ -14444,8 +14444,8 @@ to atleast 6.3 V</text>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="SPI_CE0"/>
-<wire x1="-38.1" y1="208.28" x2="-33.02" y2="208.28" width="0.1524" layer="91"/>
-<label x="-33.02" y="208.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="-38.1" y1="208.28" x2="-27.94" y2="208.28" width="0.1524" layer="91"/>
+<label x="-27.94" y="208.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI2_SCK" class="0">
@@ -14456,8 +14456,8 @@ to atleast 6.3 V</text>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="SPI_SCLK"/>
-<wire x1="-38.1" y1="210.82" x2="-33.02" y2="210.82" width="0.1524" layer="91"/>
-<label x="-33.02" y="210.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="-38.1" y1="210.82" x2="-27.94" y2="210.82" width="0.1524" layer="91"/>
+<label x="-27.94" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI2_MISO" class="0">
@@ -14468,8 +14468,8 @@ to atleast 6.3 V</text>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="SPI_MISO"/>
-<wire x1="-38.1" y1="213.36" x2="-33.02" y2="213.36" width="0.1524" layer="91"/>
-<label x="-33.02" y="213.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="-38.1" y1="213.36" x2="-27.94" y2="213.36" width="0.1524" layer="91"/>
+<label x="-27.94" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI2_MOSI" class="0">
@@ -14480,8 +14480,8 @@ to atleast 6.3 V</text>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="SPI_MOSI"/>
-<wire x1="-38.1" y1="215.9" x2="-33.02" y2="215.9" width="0.1524" layer="91"/>
-<label x="-33.02" y="215.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="-38.1" y1="215.9" x2="-27.94" y2="215.9" width="0.1524" layer="91"/>
+<label x="-27.94" y="215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="5">
@@ -14753,6 +14753,11 @@ to atleast 6.3 V</text>
 <wire x1="398.78" y1="-175.26" x2="398.78" y2="-190.5" width="0.1524" layer="91"/>
 <label x="398.78" y="-190.5" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="SDA"/>
+<wire x1="-68.58" y1="165.1" x2="-76.2" y2="165.1" width="0.1524" layer="91"/>
+<label x="-76.2" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
@@ -14770,6 +14775,11 @@ to atleast 6.3 V</text>
 <wire x1="124.46" y1="-62.865" x2="124.46" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-63.246" x2="124.46" y2="-62.992" width="0.1524" layer="91"/>
 <junction x="124.46" y="-63.246"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="SCL"/>
+<wire x1="-68.58" y1="167.64" x2="-76.2" y2="167.64" width="0.1524" layer="91"/>
+<label x="-76.2" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="M1_A" class="9">
