@@ -12834,7 +12834,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="R_ED1" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="5.6"/>
 <part name="R_ED_PD" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="47k"/>
 <part name="U$13" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="EMITTER" device="" package3d_urn="urn:adsk.eagle:package:14781785/2"/>
-<part name="R_ERF" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="30 "/>
+<part name="R_ERF" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="10"/>
 <part name="R_ERF_PD" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="47k"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C_ELF1" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="CAP" device="0603-CAP" package3d_urn="urn:adsk.eagle:package:14781741/2" value="4.7uF"/>
@@ -12866,8 +12866,8 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:14781754/2"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R_VM1" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="70k"/>
-<part name="R_VM2" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="40k"/>
+<part name="R_VM1" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="75k"/>
+<part name="R_VM2" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="50k"/>
 <part name="GND32" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="GND" device=""/>
 <part name="S2" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="SWITCH-SPST" device="PTH" package3d_urn="urn:adsk.eagle:package:14781812/2"/>
 <part name="V_BATT" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="V_BATT" device=""/>
@@ -12915,8 +12915,8 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="T5" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="TESTPOINT" device="ROUND2MM" package3d_urn="urn:adsk.eagle:package:14781864/1"/>
 <part name="T2" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="TESTPOINT" device="ROUND2MM" package3d_urn="urn:adsk.eagle:package:14781864/1"/>
 <part name="X1" library="raspberrypi_bastelstube_v13" deviceset="RASPI_GPIO_B+#" device="_PIN"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="4.6k"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="4.6k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="4.7k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="4.7k"/>
 <part name="U$5" library="micro-motor" deviceset="6P_HEADER" device=""/>
 <part name="U$6" library="micro-motor" deviceset="6P_HEADER" device=""/>
 <part name="R_VM3" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="500m"/>
@@ -12947,13 +12947,13 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND13" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="GND" device=""/>
 <part name="GND21" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="GND" device=""/>
 <part name="6V_PWR" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:14781806/2" value="green"/>
-<part name="R_PWR3" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="100 Ohm"/>
+<part name="R_PWR3" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="150 Ohm"/>
 <part name="GND3" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="GND" device=""/>
 <part name="3.3V_PWR" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:14781806/2" value="green"/>
-<part name="R_PWR4" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="100 Ohm"/>
+<part name="R_PWR4" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="150 Ohm"/>
 <part name="GND20" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="GND" device=""/>
 <part name="5V_PWR" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:14781806/2" value="green"/>
-<part name="R_PWR1" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="100 Ohm"/>
+<part name="R_PWR1" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="RESISTOR" device="0603-RES" package3d_urn="urn:adsk.eagle:package:14781740/2" value="150 Ohm"/>
 <part name="GND22" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="GND" device=""/>
 <part name="U$23" library="BD33FC0WEFJ-E2" deviceset="BD60HC5WEFJ" device=""/>
 <part name="TP7" library="micromouse-board-added-piconnector" library_urn="urn:adsk.eagle:library:14781578" deviceset="TESTPOINT" device="ROUND2MM" package3d_urn="urn:adsk.eagle:package:14781864/1"/>
@@ -13008,7 +13008,7 @@ Voltage Supply: 2 - 3.5V</text>
 <wire x1="231.902" y1="-2.286" x2="231.902" y2="136.144" width="0.1524" layer="97" style="longdash"/>
 <wire x1="231.902" y1="136.144" x2="403.352" y2="136.144" width="0.1524" layer="97" style="longdash"/>
 <text x="-14.224" y="-13.716" size="5.08" layer="94">IMU</text>
-<text x="112.522" y="-165.608" size="2.54" layer="91">V_bat = ((40+70)/(40)) * V_mcu
+<text x="112.522" y="-165.608" size="2.54" layer="91">V_mcu = ((50+75)/(50)) * V_bat
 V_mcu should not exceed 2.90V</text>
 <text x="236.982" y="247.142" size="5.08" layer="94">Battery Setup</text>
 <text x="293.116" y="-150.114" size="1.27" layer="94">ADC123_IN0/TIM2_CH1/TIM5_CH1</text>
