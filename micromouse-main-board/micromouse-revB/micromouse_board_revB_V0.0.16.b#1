@@ -170,7 +170,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTI4ODRj" projecturn="a.cGVyc29uYWw6dWUyYTI4ODRjIzIwMTkxMDAzMjIyNjI2MzAx" f3durn="urn:adsk.wipprod:dm.lineage:M1vmOU9XTKCgost9yMEpMg" pcbguid="4f5d91c0-b91d-4bd2-a84e-1d67e1ac90d0" lastpulledtime="" lastsyncedchangeguid="2c5b7ea1-d76e-fb5a-2850-c635cefcb008"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTI4ODRj" projecturn="a.cGVyc29uYWw6dWUyYTI4ODRjIzIwMTkxMDAzMjIyNjI2MzAx" f3durn="urn:adsk.wipprod:dm.lineage:OO-QcJyDQ32ANl2HIo6JVA" pcbguid="49641b60-d529-4824-b812-d4b8803756b6" lastpulledtime="" lastsyncedchangeguid="ab2e1cee-5be1-0f18-fe52-6bdef6c1109d"/>
 <plain>
 <wire x1="-60" y1="-59" x2="-60" y2="-47" width="0.1524" layer="51"/>
 <wire x1="-49.15" y1="-46.8" x2="-48" y2="-53" width="0.1524" layer="51"/>
@@ -365,6 +365,21 @@ Use vector font </text>
 <text x="-10.9474" y="12.1666" size="1.778" layer="25" font="vector" ratio="20" rot="R180">L</text>
 <text x="-12.7" y="66.3956" size="1.016" layer="25" font="vector" ratio="20" rot="R180">AGND</text>
 <text x="-4.3942" y="66.802" size="1.016" layer="25" font="vector" ratio="20" rot="R180">MGND</text>
+<text x="-1.016" y="101.4222" size="1.778" layer="51">Bottom Planes
+------------
+1. AGND
+2. GND
+3. A3.3V
+</text>
+<text x="21.0312" y="93.6752" size="1.778" layer="51">Top Planes 
+---------
+1. 5V, GND
+2.MGND
+3.3.3V 
+4. 6V
+5. 
+6. V_BATT
+</text>
 <text x="35.1028" y="-7.4676" size="1.778" layer="21" font="vector" ratio="15">UGA 2020
 Robotics Club</text>
 <text x="35.1028" y="-7.4676" size="1.778" layer="26" font="vector" ratio="15">A. Spain</text>
