@@ -1,6 +1,6 @@
 # Introduction
 
-This projects will allow you to build and develop on a micromouse for maze exploration and multi-agent communication and cooperation.
+This projects will allow you to build and develop on a micromouse for rapid maze solving
 
 # Table of contents
 1. [Bill Of Materials](https://github.com/Spain2394/MicromouseV1/blob/master/Wiki/Bill-of-Materials.md)
