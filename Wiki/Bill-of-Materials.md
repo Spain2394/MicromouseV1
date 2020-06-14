@@ -28,16 +28,5 @@ You need these components to enable the micromouse to sense its environment and
 | MPU 6050 |1 | $4.80|[Amazon](https://www.amazon.com/dp/B07DXQB6P1/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B07DXQB6P1&pd_rd_w=iK6S4&pf_rd_p=8a8f3917-7900-4ce8-ad90-adf0d53c0985&pd_rd_wg=SjIjm&pf_rd_r=8QJVTJ7NX8SY9GFVS7QZ&pd_rd_r=1cfd0432-a4cf-11e9-b6ac-d580eb0b5aaa)|
 | Incremental Encoder|1|$8.99|[Amazon](https://www.amazon.com/Cylewet-Encoder-15×16-5-Arduino-CYT1062/dp/B06XQTHDRR/ref=as_li_ss_tl?s=electronics&ie=UTF8&qid=1519833881&sr=1-3&keywords=Rotary+Encoder&linkCode=sl1&tag=howto045-20&linkId=8342c1bffd186172203db659d13e7449)|
 
-
-## Common Parts
-These are common components, such as basic circuit elemnts and harnesses.
-
-| Part          | Qty           | Cost  |URL                                     |
-| ------------- |:-------------:| -----:|:--------------------------------------:|
-|       |         |   |    |
-|       |      |   |       |
-|       |      |    |      |
-
-
 ### Next
 Go to [hardware setup](https://github.com/Spain2394/MicromouseV1/blob/master/Wiki/Hardware-Setup.md)
