@@ -1,6 +1,5 @@
 # Introduction
-This projects will allow you to build and develop on a micromouse for rapid maze solving
-Boards designed in [EAGLE](http://eagle.autodesk.com)
+Micromouse (small robot car) PCB, boards are  designed in [EAGLE](http://eagle.autodesk.com)
 
 Current board release [micromouse_board_revB_V0.0.16_2020-02-19.zip ](https://github.com/uga-robotics/MicromouseV1/blob/master/micromouse-main-board/micromouse-revB/micromouse_board_revB_V0.0.16_2020-02-19.zip ). Inside this zip file you will CAM files for assembly and manufacturing. 
 Board BOM  --> [micromouse_board_revB_V0.0.16_2020-02-19.xlsx](https://github.com/uga-robotics/MicromouseV1/blob/master/micromouse-main-board/micromouse-revB/micromouse_board_revB_V0.0.16.xlsx)
