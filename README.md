@@ -6,7 +6,7 @@ Current board release [micromouse_board_revB_V0.0.16_2020-02-19.zip ](https://gi
 Board BOM  --> [micromouse_board_revB_V0.0.16_2020-02-19.xlsx](https://github.com/uga-robotics/MicromouseV1/blob/master/micromouse-main-board/micromouse-revB/micromouse_board_revB_V0.0.16.xlsx)
 
 ## Getting going
-Clone to hardware of software to local machine: ```Projects % git clone --recurse-submodules https://github.com/uga-robotics/MicromouseV1.git```
+Clone to hardware of software to local machine: ```git clone --recurse-submodules https://github.com/uga-robotics/MicromouseV1.git```
 
 # Table of contents
 1. [Bill Of Materials](https://github.com/Spain2394/MicromouseV1/blob/master/Wiki/Bill-of-Materials.md)
